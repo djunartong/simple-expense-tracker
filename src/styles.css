@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  font-weight: 700;
+}
+
+input {
+  max-width: 100px;
+}
+
+select {
+  max-width: 130px;
+}
+
+table {
+  padding: 20px;
+}
+
+td button {
+  border: none;
+  background-color: #ffff;
+}
